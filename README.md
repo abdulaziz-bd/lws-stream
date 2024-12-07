@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LWS XStream - Next.js Video Management App
 
-## Getting Started
+A video streaming platform built with Next.js 14, featuring dynamic video management, parallel routing, and multi-language support.
 
-First, run the development server:
+[Live Demo](your_vercel_link_here)
+
+## Features
+
+- 📌 **Dynamic Content Loading**
+
+  - Dynamic import of video data
+  - Efficient code splitting and lazy loading
+
+- 🎥 **Video Management**
+
+  - View all videos with card layout
+  - Video details in modal view
+  - Dynamic routing for video pages
+
+- 🛣 **Advanced Routing**
+
+  - Parallel routing implementation
+  - Intercepting routes for modal/page views
+  - Custom 404 pages for both general and video-specific routes
+
+- 🌐 **Multi-language Support**
+
+  - English and Bengali language options
+  - Auto-detection of browser language preference
+  - Easy language switching from navbar
+
+- 🔧 **RESTful API Endpoints**
+  - GET /api/videos - List all videos
+  - GET /api/videos/{id} - Get specific video
+  - PATCH /api/videos/{id} - Update video title/description
+  - DELETE /api/videos/{id} - Remove video
+
+## Tech Stack
+
+- Next.js 14
+- Tailwind CSS
+- React Portal for Modals
+- Server Components
+- App Router
+
+## Key Implementation Details
+
+- Custom modal implementation with React Portal
+- Dynamic JSON imports for video data
+- Parallel and intercepting routes for enhanced UX
+- Dedicated error handling and 404 pages
+- Language switching with localization
+- RESTful API implementation
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/abdulaziz-bd/lws-stream
+```
+
+2. Install dependencies
+
+```bash
+cd lws-stream
+npm install
+```
+
+3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- Tailwind CSS
+- React
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── [locale]/
+│   │   └── videos/
+│   │       └── [id]/
+│   ├── api/
+│   │   └── videos/
+│   └── components/
+├── data/
+│   └── videos.json
+└── dictionaries/
+    ├── en.json
+    └── bn.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Md Abdul Aziz**
 
-## Deploy on Vercel
+- Github: [@abdulaziz-bd](https://github.com/abdulaziz-bd)
+- LinkedIn: [abdulazizfahad](https://linkedin.com/in/abdulazizfahad)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is [MIT](./LICENSE) licensed.
