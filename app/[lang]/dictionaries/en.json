@@ -1,0 +1,34 @@
+{
+  "header": {
+    "top_streaming": "TOP STREAMING",
+    "games": "GAMES",
+    "teams": "TEAMS",
+    "search": "Search"
+  },
+  "hero": {
+    "title": "PLAY, COMPETE, FOLLOW POPULAR STREAMERS",
+    "subtitle": "The best streamers gather here to have a good time, be among us, join us!",
+    "broadcast_starts_in": "Broadcast starts in",
+    "coming_soon": "COMING SOON",
+    "time": "04:03",
+    "broadcastTitle": "Battle for the castle with Franck Jourdan and Eva703"
+  },
+  "stream_of_the_day": {
+    "heading": "Streams of the Day",
+    "view_all": "View all"
+  },
+  "video_details": {
+    "you_may_like": "You may like",
+    "subscribe": "Subscribe",
+    "time": "46:02",
+    "donate": "DONATE",
+    "live": "LIVE",
+    "no_similar_videos": "No similar videos found"
+  },
+  "page_not_found": "Page not found",
+  "page_not_found_details": "Could not find requested resource",
+  "video_not_found": "Video not found",
+  "requested_video_not_found_1": "This video with",
+  "requested_video_not_found_2": "id was not found",
+  "return_home": "Return Home"
+}
