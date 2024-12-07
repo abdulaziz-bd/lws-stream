@@ -2,7 +2,7 @@
 
 A video streaming platform built with Next.js 14, featuring dynamic video management, parallel routing, and multi-language support.
 
-[Live Demo](your_vercel_link_here)
+[Live Demo](https://lws-stream.vercel.app)
 
 ## Features
 
